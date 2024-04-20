@@ -4,26 +4,31 @@
   
     
     <entry>
-      <title>test</title>
-      <link href="/2024/04/18/test/"/>
-      <url>/2024/04/18/test/</url>
+      <title>【明牌空投】Mint Blockchain 以太坊二层网络 种树升级 跨链桥 nfts2me 银河任务详解</title>
+      <link href="/2024/04/20/mintchain/"/>
+      <url>/2024/04/20/mintchain/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2024/04/18/hello-world/"/>
-      <url>/2024/04/18/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Mint Blockchain 是一个专注于 NFT 的以太坊二层网络，目前正处于空投预热期，预计二季度正式上线，参与空投有两个渠道，一是在官网推出的Mint-forest种树浇水升级游戏，二是银河任务。</p><h3 id="Mint-forest游戏"><a href="#Mint-forest游戏" class="headerlink" title="Mint-forest游戏"></a>Mint-forest游戏</h3><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk44xIe5lx3YianjG5xKG5v8UtdiaOvo34Cu38rvk0eLo49H6J86VtbOmrQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="1"></p><p>类似于支付宝的蚂蚁森林，每天签到会有500点的能量值（ME），累计7天可领取一个能量盒（ME box）,可以随机开出能量值，另外会有不定时的任务发布，完成任务也可以领取能量值，能量值会存储在水壶中，给小树浇水帮助小树成长。</p><p>打开链接  <a href="https://www.mintchain.io/mint-forest?inviteCode=C1154560">https://www.mintchain.io/mint-forest?inviteCode=C1154560</a>  进入注册页面，或者直接从官网点击Mint Forest进入注册页面</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4NBKicP87607lcRug9g2zlmjPC5pRzMyqB2nPnkVsJMOLFaeibPibMDiaag/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="1"></p><p>连接钱包并登录进入认证页面</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4ZydhSrJwR42npS4f5h6HNiaB5s1ibhbxfg3OpF11DV4QS95roib7o8MFg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="1"></p><p>游戏机制侧重于社交传播，邀请码是必填项，可以填写我的邀请码【C1154560】，进入游戏后，除了领取500点能量值，先将Task中的任务给完成了，可以领取大量的能量值。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4UPpV4YsWXO52yhtd4H0n7ySMNJDDROPmwaiafJ1rrluicccKb6GbaIvQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="1"></p><p>任务都相当简单，“Test the Mint Testnet Bride”这个任务是跨链桥的交互任务，需要特别说明一下，进入Mint Testnet Bridge 页面</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk48HHOjzh2398kd9z7tJCO6iaOZe47pOiaU1FLAdesoeKzObficI94KX0Hw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="1"></p><p>使用钱包登录（与mint-forest保持同一个钱包账号），切换DEPOSIT和WITHDRAW两个选项，分别点击Add chain to MetaMask，添加sepolia网络和Mint Testnet网络至钱包</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4elCODUjR1yz9aLMffTvHF9DjGc9Dllokgs7P34ew9qH0fAhbWF8FFg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>然后需要进行跨链交互，在进行交互之前，先领取测试币</p><p>官方领水地址：<a href="https://www.mintchain.io/faucet">https://www.mintchain.io/faucet</a> ，每24小时可领取0.01个Sepolia ETH，但必须在以太坊主网上持有至少 0.001 ETH才可领取</p><p>其他领水地址：<a href="https://sepolia-faucet.pk910.de/#/">https://sepolia-faucet.pk910.de/#/</a> ，以pow的形式领水</p><p>还可以添加我的微信，备注“领水+钱包地址”，稍后可收到0.01Sepolia ETH，一人仅可领取一次。</p><p>领水之后，先进行Deposit操作，将Sepolia ETH 跨链到Mint Testnet，因为需要手续费，选择跨链数量小于0.01，</p><p>跨链交易完成后，需等待一段时间，大概是两分钟，可在Mint Testnet看到余额，然后再进行Withdraw操作，将ETH再跨链回Sepolia</p><p>完成两次跨链操作之后，即可在mint-forest完成 Test the Mint Testnet Bridge任务。整个跨链操作总体来讲相当丝滑。</p><h2 id="2-银河任务"><a href="#2-银河任务" class="headerlink" title="2. 银河任务"></a>2. 银河任务</h2><p>通过参与银河任务，可以获得ME Boxes 奖励，注意登录银河任务的钱包账号与登录mint-forest的钱包账号保持一致。</p><p>银河任务链接：<a href="https://galxe.com/mintblockchain/">https://galxe.com/mintblockchain/</a></p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4P8LspmtpLDFhV3QBcdgsGN5BTticF0o4kVkJDgODKD8TKpRuMKll9iaw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>银河任务包含若干个大任务和子任务，每个大任务的开始时间和到期时间并不相同，已经到期的任务无法进行，请尽快完成。任务都非常的简单，有两个子任务需要说明一下</p><p>1.Creat and deploy a new NFT Project on Mint Blockchain</p><p>nfts2me是mint链的一个生态项目，进入nfts2me，使用钱包登录，并点击发送消息签名认证</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4aoCKhiakQ5cPjcpvjYqPhHibzFQfbOSOU2g5xs7zTdLGibqDtxa0vGoug/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>Create New Project 选择Editions进入开始创建项目</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4UXH0tbpyDxNxRvmDgNywMzfdiarHhUicPiaJHqVSVcBkOTe4hTF0xLDNg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>① 切换Mint 测试网</p><p>② 设置项目名称和描述</p><p>③ 设置NFT的铸造价格，</p><p>④ 上传NFT图片</p><p>然后点击 Deply to Mint Testnet ，需要消耗少量的gas，注意在Mint 测试网中预存少量ETH（测试币）</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4iap36kAZdtwj0XGib3dFmetlLgsxM72Yq651MVYp3jQXlGXTw4c2W8Dw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>当你看到以上结果，项目已经创建成功，有兴趣的伙计可以继续研究一下这个项目的玩法，回到银河任务，刷新该子任务可以看到任务已完成</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk44merdKeyzrLpc70odlEhOpicibs4KYjHRqfxVtqx15CqB1Tial98D4p3A/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>2.Have the TESTNET CREATEORS role in NFTs2Me Discord Server</p><p>进入discord服务器后，点击如下图所示小对勾，解锁频道</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4Wra0icsmqbmD4Via4rFPBCTibta9rhgCjyvPTmu6qjFXzibmeWRsJB0hvA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>浏览器打开 <a href="https://discord.nfts2me.com/%EF%BC%8C%E7%84%B6%E5%90%8E">https://discord.nfts2me.com/，然后</a></p><p>第一步链接discord</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4O1icTzNWAOC9C4u0g0DDWbHVjUYicibdgtLKz4CVs1ocoVYI0W9lgVYOw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>第二步连接钱包</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4TSYH67psicicmgiadutzQOtzWLdZzwibrn9XuiciaibUdbpDic6XbBZBqn38zw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>第三步签名认证</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4pVTxbhYDBJRRc9gB9SVIssiadB3xsZmk87OmslsJZzMA4qQnsfYSGEw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>看到如下结果，TESTNET CREATEORS角色已经领取成功</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4sIvSMhbKE3AqWjE8TzZiamjB7GJosPb8icHQ7tFxfcacIxLNNv0KDqwg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>再次回到银河任务，刷新子任务，可以看到任务已完成</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk4WfI6iccPUsob4alznuicgDKEwBemhAWFZzr7ZKBTicLKHwvDNUDhUTEQg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p>银河任务的奖励也是以能量的方式发送，所以最终小树的等级决定了空投的数量，空投奖励预计在第二季度主网上线时同期发放。如果后期活动有变化，包括空投奖励的具体规则，都会及时的通知大家。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 空投撸毛 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mintchain </tag>
+            
+            <tag> nfts2me </tag>
+            
+            <tag> 银河任务 </tag>
+            
+            <tag> 二层网络 </tag>
+            
+        </tags>
       
     </entry>
     
