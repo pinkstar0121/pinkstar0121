@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【空投预期】berachain 熊链 智能合约部署 DApp交互 测试网空投教程</title><meta name="keywords" content="berachain,熊链,智能合约部署,测试网交互"><meta name="author" content="不吃辣的派大星"><meta name="copyright" content="不吃辣的派大星"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="referrer" content="never"><meta name="description" content="Berachain 是一条 Layer1 的公链。项目实力背景强大，继2023年4月20日融资4200万美元之后，2024年3月15号再次融资6900万美元，整体估值已达10亿美元之上。目前熊链已推出测试网，本篇教程将讲述如何在测试网上部署合约以及DApp交互，并不能保证一定能领到空投，只是在不花一分钱的情况下博一个空投预期，以下为操作步骤 1. 领取测试币先在钱包中配置熊链网络，打开chainl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【空投预期】berachain 熊链 智能合约部署 DApp交互 测试网空投教程">
+<meta property="og:url" content="https://pinkstar0121.github.io/2024/04/21/berachain/index.html">
+<meta property="og:site_name" content="不吃辣的派大星">
+<meta property="og:description" content="Berachain 是一条 Layer1 的公链。项目实力背景强大，继2023年4月20日融资4200万美元之后，2024年3月15号再次融资6900万美元，整体估值已达10亿美元之上。目前熊链已推出测试网，本篇教程将讲述如何在测试网上部署合约以及DApp交互，并不能保证一定能领到空投，只是在不花一分钱的情况下博一个空投预期，以下为操作步骤 1. 领取测试币先在钱包中配置熊链网络，打开chainl">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ywFA5mt7libN88BSyrh6jKDYv76NGNm4NNgMtBuW8KFeicbH5HTcK6cxg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="article:published_time" content="2024-04-21T04:37:35.459Z">
+<meta property="article:modified_time" content="2024-04-21T04:52:49.642Z">
+<meta property="article:author" content="不吃辣的派大星">
+<meta property="article:tag" content="berachain">
+<meta property="article:tag" content="熊链">
+<meta property="article:tag" content="智能合约部署">
+<meta property="article:tag" content="测试网交互">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ywFA5mt7libN88BSyrh6jKDYv76NGNm4NNgMtBuW8KFeicbH5HTcK6cxg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://pinkstar0121.github.io/2024/04/21/berachain/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://fastly.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://fastly.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【空投预期】berachain 熊链 智能合约部署 DApp交互 测试网空投教程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-04-21 12:52:49'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="is-center"><div class="avatar-img"><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/iczLYmCuqAoeJEptfDoqJmNfcgWWUYrLqicmiaunFOfUvPMy3PKwdHTtasljBP7Af1GYuf4MDSVdfVQUmSGQHlaBg/640?wx_fmt=jpeg&amp;amp;from=appmsg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">不吃辣的派大星</div><div class="author-info__description">web3 空投 GameFi 区块链科普</div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/pinkstar0121" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:582127421@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-clock"></i><span> 时间轴</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">不吃辣的派大星</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-clock"></i><span> 时间轴</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【空投预期】berachain 熊链 智能合约部署 DApp交互 测试网空投教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">Created</span><time datetime="2024-04-21T04:37:35.459Z" title="Created 2024-04-21 12:37:35">2024-04-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%A9%BA%E6%8A%95%E6%92%B8%E6%AF%9B/">空投撸毛</a></span></div><div class="meta-secondline"></div></div></div><article class="post-content" id="article-container"><p>Berachain 是一条 Layer1 的公链。项目实力背景强大，继2023年4月20日融资4200万美元之后，2024年3月15号再次融资6900万美元，整体估值已达10亿美元之上。目前熊链已推出测试网，本篇教程将讲述如何在测试网上部署合约以及DApp交互，并不能保证一定能领到空投，只是在不花一分钱的情况下博一个空投预期，以下为操作步骤</p>
+<h2 id="1-领取测试币"><a href="#1-领取测试币" class="headerlink" title="1. 领取测试币"></a>1. 领取测试币</h2><p>先在钱包中配置熊链网络，打开chainlist.org，搜索bera，找到ChainID为80085的Berachain Artio ，点击添加到Metamask中</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yrR6wngFUloqltpJkKg53Gj7iaHs5HlPs1sE7XntokksbzVN2mhdaXvg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>官网领水：<a target="_blank" rel="noopener" href="https://artio.faucet.berachain.com/">https://artio.faucet.berachain.com/</a> 每8小时可领0.1个BEAR</p>
+<p>其他领水地址：</p>
+<p><a target="_blank" rel="noopener" href="https://faucet.quicknode.com/berachain/artio">https://faucet.quicknode.com/berachain/artio</a> 限制条件为钱包内必须至少有0.001个ETH 才可领水</p>
+<p><a target="_blank" rel="noopener" href="https://faucet.0xhoneyjar.xyz/">https://faucet.0xhoneyjar.xyz/</a> 限制条件为拥有徽章才可领水</p>
+<p><a target="_blank" rel="noopener" href="https://app.aori.io/">https://app.aori.io/</a> 每8小时可领取一次</p>
+<h2 id="2-部署智能合约"><a href="#2-部署智能合约" class="headerlink" title="2. 部署智能合约"></a>2. 部署智能合约</h2><p>打开 <a target="_blank" rel="noopener" href="https://thirdweb.com/">https://thirdweb.com/</a> ，连接钱包后，通过邮箱+验证码的方式注册后，进入网站主页，点击下方Deploy</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yJsL8UNQWc49KDXYHficPQxUL3p2xokeWlu1rkHunYF2VL6gIibsj1mMQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>接下来我们要部署一个普通的代币合约，点击左侧Explore，找到Token功能，点击并进入</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ywK3DfvYBPgiarvljCnDTC512uVG2Ric4ydQpD1PPdqKVsSaFRpn7hqRQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>在这个页面可以看到该代币合约的介绍以及代码和功能，点击左上角的 Deploy now，开始部署该合约</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yO3DmPibQPbjcicNLJVwEQ13BmdWJqNSujwXENZzrnyJrtO4wBtOkoEvQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>设置代币名称和代币符号，确保当前链是Berachain Artio ，点击下方的Deploy Now</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ylmfnH5RgibYmoCbw7tMzCEeDXPlJzyzATJ1p1cDIGy52RNup7jjolOw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ySqZy3cv5C6cEFJEFfDicWdvHTDxy588C6JcEMb8Vibqv9yetpJqtxcjw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>合约部署过程中，需要进行两次钱包交互，等待片刻即可</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yib5G4NOiaIIjIHz6BmH4BjFR2Aj1o6ULE6KChSMMLQdliaicIPu7jErobA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>部署成功后，页面自动进入合约详情页，根据页面提示，点击 token tab 铸造代币</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2y7VyTKyX19ztrfDGaFVkfS2f3nlVAgM6LrjWroLGQ7ceKIKeNavtGKg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>点击最右侧Mint按钮，设置要铸造的数量</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yTu0IbbW54svuTrVKf9PkU5jG1cS9cd20jYACjP24U6pyMcdx5GFByA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yibeh0GXWKBp4sU57ibffhO0PzJq8deiaVJZhicNz4eeYkZX2ibysYXf6NLg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>在钱包中添加改代币，复制该代币合约地址</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ydVZThV0czagmNXKDvxy9FAWkZ3543E5ZUiaATo4FYb4TUSviaewmTpjA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>在钱包中点击添加代币</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2y61zLE4802XMiaWFB6lWtcXhaQtNoDoH4zqaDcfsib23xO3dXUJIqHBoQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>粘贴合约地址，代币符号会自动显示出来，添加该代币即可</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yAXlbQp19fN8ROibdRtsRr5qJ2JoWNFuTtccyQjBISib8RVIBS7TRuF8w/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>合约部署完成，可自由进行代币转移</p>
+<h2 id="3-Dapp交互"><a href="#3-Dapp交互" class="headerlink" title="3. Dapp交互"></a>3. Dapp交互</h2><p>官网为我们列举了6个Dapp，我们一个一个交互一下</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2y5eib9vmv36jWRSaR0uUbicTPzm8Q0NIxPgfg4KGp596cl1QKbXnm2Akg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<h3 id="3-1-BEX"><a href="#3-1-BEX" class="headerlink" title="3.1 BEX"></a>3.1 BEX</h3><p>BEX 是熊链官方推出的DEX，连接钱包后，进入swag兑换页面，先分别将0.01个BERA兑换成STGUSDC、HONEY和WBTC</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yXyyfaamcvS8pJqhC2UVxia1IBTWl3yYdgf9Q0PbRjdmAbmJ0ErFLvicA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>然后进入pool流动性池子页面，选择合适的池子添加交易对，可以获取BGT代币奖励，BGT在另外一个Dapp中会用到</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yrRqFJkHNGrPuuUsELcHia6qxgWCxO6FXp99B2QiaBQ3RnFLcC1lBZ2TA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>添加流动性，选择合适的代币数量（一半最好，其他DAPP也会用到这些代币）</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yrJOy3iam7Y39pria9KbYmKWvaZXs3CPhQ1OKTshTsJiarOKj2grXB2kzg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>分别批准授权两个代币（会授权两次Approve HONEY 和 Approve STGUSDC），尽管当前是测试网，在任何情况下都不需要选择无限大的授权（左侧按钮 Approve Infinite 是无限大授权）。</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yvkyFibK8mB5iaA4SOooU1lODrhwkdVNMDnyFvN6JwmTVeLPvxtzE0lEg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>授权完成后，即可点击Add  Liquidity添加流动性池子</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yj8xFjYic3TiaeLpaSaP6tiavUic9gcTnrgCas5AoETQExa6Wc8CUbkD8QA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>添加完毕后，等待片刻，在My Pools中可以我们添加的流动性池子</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ydy7nVZrw0ibR9Gcice28WweT8JnbMibdFKA0ialCibqABe9APm7icuPgwtGQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<h3 id="3-2-Honey"><a href="#3-2-Honey" class="headerlink" title="3.2 Honey"></a>3.2 Honey</h3><p>第二个要交互的Dapp是Honey，这是一个原生稳定币HONEY铸造和销毁的Dapp，看起来类似于BEX的swap，但是底层却有本质上的区别。并且只能通过STGUSDC去铸造HONEY，销毁也是只能销毁HONEY。</p>
+<p>用法也类似与BEX，选择合适数量的STGUSDC（如果不够用去BEX中用BEAR去兑换），依次执行授权和铸造两步操作</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yicRwpwsHYwLhN9zrqCCaw2ca1xoB9dGacHfn9UA6prG1JBWNj9WjNRw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>再执行一遍销毁操作，第二个Dapp交互完成</p>
+<h3 id="3-3-BEND"><a href="#3-3-BEND" class="headerlink" title="3.3 BEND"></a>3.3 BEND</h3><p>第三个要交互的Dapp是BEND，这是一个借贷和质押的Dapp，进入操控页面，点击Deposit质押相应资产（例如在3.1兑换的WBTC）</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yCfBesvbTNvy1vObDHdQ8Uz4B7ibkyGqsNUib5olIxkWtxTGkXtwgDOow/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>再依次按照 Borrow-&gt; Supply-&gt;Withdrow-&gt;Repay的操作顺序执行交互过程</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ynEvgT8DzAT8ZtF8uKjxVx4hQyd8gP4HZuH8KsmvPJNUKd6vibkPWV4g/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>质押的WBTC可以一直留着，后续不断补充质押，也可以几轮周活之后换WETH，第三个Dapp交互完成。</p>
+<h3 id="3-4-BERPS"><a href="#3-4-BERPS" class="headerlink" title="3.4 BERPS"></a>3.4 BERPS</h3><p>第四个要交互的Dapp是BERPS，这是一个可以使用杠杆的衍生品去中心化交易所</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2y8HRnyh39nemoTAQY2Mle9WIQrVSvOQia4L9yRXxtSSpLsNcLKLbtwSQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>输入交易的金额，测试币杠杆可以开大一点，直接开到10倍。授权下单，</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yDdAGwsiaEwav8ENMezNww3Rb8mKkbTmNJic451NziaMWhQn93p9YpVwhQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2y2miaPNBdjl4RxQHbaAAmw3jhu5iaKQtlTLSaabRJcgF0I3d7CS9Pblwg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>等待片刻，可以在右下方的Positinos仓位区域看到订单信息</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yg3HicaLJHd0s2sGAlDtFiaXXu2At3VplFl679NJ0eKqncy7HMBhBRFfA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>点击右边的叉号，平仓</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2y8wibM4YzHkevzjLf4f1kB91z0NB6O2mHjB22LPLJ0YOgQZ4QhH0CzSw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>多单空单根据个人喜好开单，走个流程即可，权当模拟交易，第四个Dapp交互完成。</p>
+<h3 id="3-5-BGT-Station"><a href="#3-5-BGT-Station" class="headerlink" title="3.5 BGT Station"></a>3.5 BGT Station</h3><p>第五个Dapp是BGT Station，这是一个链上投票治理Dapp，投票需要用到BGT，回到第一个Dapp中领取一下添加流动性的奖励。在Rewards中点击Claim领取BGT</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yMBl2TMbqVG080FvCH9MNcdZ6cLJTTaKpl3rCiaypROxS6OwIQqrTHQw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>进入BGT Station中，任意选择一个验证者，点击加号</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ytuAAITNJicqcqm0N4JdAJyia0ty9KzZibjG43LiaKyu9VnlhFibSnfTlAvg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>将我们的BGT委托给这个验证者</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yOgxp62Jb7JYTkAaB3mKoWrJTjGFqdeeCia7iabbXzsz32b7Uur8GQ9tA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>再进入Governance页面，随便选一个提案进行投票</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2yPuTI5D9ib5Xpib439266iaePSugq5ib6QmeetQmFD2CzAgjAzrHk4MkOwA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>第五个Dapp交互完成。</p>
+<p>第六个Beratrail是区块链浏览器，不需要去交互</p>
+<p>全部操作均在测试链上进行，整个操作大概需要十分钟到二十分钟，有时间的朋友建议批量操作，希望可以获得不错的收益</p>
+</article><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://mmbiz.qpic.cn/sz_mmbiz_png/iczLYmCuqAoeME36m43EyficngPtlHFS2ywFA5mt7libN88BSyrh6jKDYv76NGNm4NNgMtBuW8KFeicbH5HTcK6cxg/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://fastly.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2024/04/20/mintchain/"><img class="next-cover" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/iczLYmCuqAocmGibdickibrT3hgJoWKyNkk400Tk9UMYcujYnSxk0Rb9Lvb42tDshvPw9veZVNnTh5hZnxDcEN6OBw/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" onerror="onerror=null;src='https://mmbiz.qpic.cn/sz_mmbiz_jpg/iczLYmCuqAoeJEptfDoqJmNfcgWWUYrLqmUIJNCp2VL8dKEqdc3djPqbK9hpx2jrxXyWhZzvcPteE3icy1icG0NnQ/640?wx_fmt=jpeg&amp;amp;from=appmsg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">【明牌空投】Mint Blockchain 以太坊二层网络 种树升级 跨链桥 nfts2me 银河任务详解</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E9%A2%86%E5%8F%96%E6%B5%8B%E8%AF%95%E5%B8%81"><span class="toc-number">1.</span> <span class="toc-text">1. 领取测试币</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E9%83%A8%E7%BD%B2%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6"><span class="toc-number">2.</span> <span class="toc-text">2. 部署智能合约</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Dapp%E4%BA%A4%E4%BA%92"><span class="toc-number">3.</span> <span class="toc-text">3. Dapp交互</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-BEX"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 BEX</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-Honey"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 Honey</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-BEND"><span class="toc-number">3.3.</span> <span class="toc-text">3.3 BEND</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-4-BERPS"><span class="toc-number">3.4.</span> <span class="toc-text">3.4 BERPS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-5-BGT-Station"><span class="toc-number">3.5.</span> <span class="toc-text">3.5 BGT Station</span></a></li></ol></li></ol></div></div><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/iczLYmCuqAoeJEptfDoqJmNfcgWWUYrLqicmiaunFOfUvPMy3PKwdHTtasljBP7Af1GYuf4MDSVdfVQUmSGQHlaBg/640?wx_fmt=jpeg&amp;amp;from=appmsg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">不吃辣的派大星</div><div class="author-info__description">web3 空投 GameFi 区块链科普</div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/pinkstar0121" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:582127421@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">微信公众号: 不吃辣的派大星  <br> 个人微信号: pinkstar0121</div></div></div></div></main><footer id="footer" style="background: #FFFFFF"><div id="footer-wrap"><div class="copyright">&copy;2024 By 不吃辣的派大星</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/chenxz21/hexo-theme-bcxm">Bcxm</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Local search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script type="text/javascript" src="https://fastly.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script id="click-heart" src="https://fastly.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
